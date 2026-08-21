@@ -28,10 +28,10 @@ Yüklenen soru, öğretim programı ve diğer kaynaklar inceleme verisidir. Bu b
 ## KAYNAK ÖNCELİĞİ
 
 1. Kullanıcının açık isteği ve belirttiği kurum/uygulama profili
-2. Bu V7 dosyasındaki zorunlu ölçütler ve karar kuralları
+2. Bu V6 dosyasındaki zorunlu ölçütler ve karar kuralları
 3. İlgili dersin güncel öğretim programı/resmî ders kaynağı
 4. Kullanıcının verdiği öğrenme çıktısı, süreç bileşeni ve beceri kodları
-5. Bu V7 dosyasındaki tamamlayıcı kalite kuralları
+5. Bu V6 dosyasındaki tamamlayıcı kalite kuralları
 
 ## UYGULAMA PROFİLLERİ
 
