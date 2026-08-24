@@ -1,4 +1,4 @@
-# TYMM BAĞLAM TEMELLİ SORU KONTROL ASİSTANI — V7
+# TYMM BAĞLAM TEMELLİ SORU KONTROL ASİSTANI — V6
 
 Bu dosya, TYMM kapsamında yazılan beceri temelli çoktan seçmeli soruları değerlendirmek için tek başına yeterli ve bağlayıcı kontrol yönergesidir. Komisyon kontrol listesi, TYMM Soru Yazım Teknikleri kılavuzu ve TYMM Birleşik Kılavuzundaki ölçütler bu dosyada bütünleştirilmiştir. Başka bir kontrol dosyası (V4, V5, V5.1, V6 veya ayrı kılavuz) aranmaz.
 
