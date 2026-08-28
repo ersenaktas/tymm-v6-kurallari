@@ -314,47 +314,47 @@ Her seçenek tek başına değerlendirilebilmeli; birleşik seçenek, gizli önc
 
 Bu bölüm iki veya daha fazla soru bulunduğunda bütün set için bir kez uygulanır. Tek soru varsa D bölümü raporda korunur ve `Tek soru bulunduğu için set düzeyi değerlendirme uygulanamaz.` ifadesi yazılır.
 
-### D.3.3 — Sorular birbirinden bağımsız cevaplanabiliyor mu?
+### D.1 — Sorular birbirinden bağımsız cevaplanabiliyor mu?
 
 Bir sorunun kökü, verisi, seçeneği veya doğru cevabı başka bir sorunun cevabını vermemeli ve sorular arasında ipucu zinciri oluşturmamalıdır.
 
-### D.2.12 — Bağlam, görsel ve sorular uygun biçimde yerleştirilmiş mi?
+### D.2 — Bağlam, görsel ve sorular uygun biçimde yerleştirilmiş mi?
 
 Ortak bağlam, görsel ve açıklamalar gereksiz sayfa geçişi yaptırmadan sunulmalı; tablo ve şekiller açıkça adlandırılmalı; her soru dayandığı materyalle kolayca ilişkilendirilebilmelidir.
 
-### D.3.9 — Sorular mekanik tekrardan uzak ve kök yapısı bakımından çeşitli mi?
+### D.3 — Sorular mekanik tekrardan uzak ve kök yapısı bakımından çeşitli mi?
 
 Soru kökleri yalnızca birkaç sözcüğü değiştirilmiş aynı görevi ve çözüm yolunu tekrarlamamalıdır.
 
-### D.3.10 — Yönerge, numaralandırma ve noktalama set boyunca tutarlı mı?
+### D.4 — Yönerge, numaralandırma ve noktalama set boyunca tutarlı mı?
 
 Ortak yönerge, soru numaraları, kök sonu noktalaması ve diğer biçimsel işaretler bütün sorularda tutarlı kullanılmalıdır.
 
-### D.SET-2 — Sorular bilişsel görev ve çözüm yolu bakımından yeterince çeşitli mi?
+### D.5 — Sorular bilişsel görev ve çözüm yolu bakımından yeterince çeşitli mi?
 
 Sorular bağlamı farklı bilişsel açılardan işlemeli; bütün set aynı çıkarım veya işlem kalıbını mekanik biçimde tekrarlamamalıdır.
 
-### D.SET-3 — Doğru cevapların konumu tahmin stratejisi oluşturmuyor mu?
+### D.6 — Doğru cevapların konumu tahmin stratejisi oluşturmuyor mu?
 
 Doğru seçenek konumları öğrencinin alan bilgisinden bağımsız olarak yararlanabileceği belirgin ve sistematik bir örüntü oluşturmamalıdır.
 
-### D.SET-4 — Veri türlerinin tekrarı seti tekdüze hâle getirmiyor mu?
+### D.7 — Veri türlerinin tekrarı seti tekdüze hâle getirmiyor mu?
 
 Aynı metin, tablo, grafik, görsel veya başka veri türünün tekrarı seti bilişsel ve görsel olarak tekdüze hâle getirmemelidir.
 
-### D.SET-6 — Soru kökü yapıları tahmin edilebilir bir tekrar oluşturmuyor mu?
+### D.8 — Soru kökü yapıları tahmin edilebilir bir tekrar oluşturmuyor mu?
 
 Köklerin sözdizimi ve görev kalıbı, öğrencinin soruyu çözmeden yapıyı tahmin etmesine yol açacak ölçüde tekrarlanmamalıdır.
 
-### D.SET-8 — Ortak bağlama bağlı sorular için açık bir yönlendirici ibare bulunuyor mu? *(koşullu)*
+### D.9 — Ortak bağlama bağlı sorular için açık bir yönlendirici ibare bulunuyor mu? *(koşullu)*
 
 Testlet veya ortak bağlama bağlı soru grubu varsa hangi soruların hangi bağlama göre cevaplanacağı açık bir yönlendirici ifadeyle gösterilmelidir. Ortak bağlam yoksa ölçüt uygulanamaz.
 
-### D.SET-9 — Ortak bağlam ve testlet yapısı bütünlük gösteriyor mu? *(koşullu)*
+### D.10 — Ortak bağlam ve testlet yapısı bütünlük gösteriyor mu? *(koşullu)*
 
 Ortak bağlama bağlı sorular aynı veri evreninin anlamlı parçalarını kullanmalı; bağlama zorla eklenmiş veya bağlamın kapsamı dışında kalan soru bulunmamalıdır. Ortak bağlam yoksa ölçüt uygulanamaz.
 
-### D.SET-10 — Seçenek yapıları tahmin stratejisi oluşturacak biçimde tekrarlanmıyor mu?
+### D.11 — Seçenek yapıları tahmin stratejisi oluşturacak biçimde tekrarlanmıyor mu?
 
 Seçenekler aynı yüzey kalıbını, uzunluk örüntüsünü veya çeldirici düzenini set boyunca tekrarlayarak doğru cevaba ilişkin ipucu vermemelidir.
 
@@ -386,7 +386,7 @@ Aşağıdaki ölçütlerden herhangi biri `❌ Uygun Değil` olduğunda ilgili s
 - **A — TYMM Uygunluğu:** A.1.2, A.1.3, A.1.5, A.1.6, A.1.13
 - **B — Bağlam:** B.2.16
 - **C — Soru Bazlı Değerlendirme:** C.1.12, C.2.1, C.3.1, C.3.4, C.3.5, C.4.1, C.4.2, C.4.3, C.4.4, C.4.5, C.4.6, C.4.14, C.4.16, C.4.17
-- **D — Set Düzeyi Değerlendirme:** D.3.3
+- **D — Set Düzeyi Değerlendirme:** D.1
 
 Diğer ölçütlerdeki uygunsuzluk ölçme geçerliliğini doğrudan ortadan kaldırmıyorsa `⚠️ Düzeltilmeli` sonucuna yol açar.
 
@@ -396,23 +396,28 @@ Diğer ölçütlerdeki uygunsuzluk ölçme geçerliliğini doğrudan ortadan kal
 
 - Rapor Türkçe yazılır ve tablo kullanılmaz.
 - `KATMAN` ifadesi kullanılmaz.
-- Rapor yalnızca A, B, C ve D adlı dört ana değerlendirme bölümünden oluşur.
+- Raporun ilk satırı tam olarak `# TYMM SORU KONTROL RAPORU` olur. Raporda birinci düzey (`#`) başka başlık kullanılmaz.
+- Rapor yalnızca A, B, C ve D adlı dört ana değerlendirme bölümünden oluşur. Bu dört bölüm sırasıyla `## A — TYMM UYGUNLUĞU`, `## B — BAĞLAM`, `## C — SORU BAZLI DEĞERLENDİRME` ve `## D — SET DÜZEYİ DEĞERLENDİRME` biçiminde ikinci düzey başlıkla yazılır.
+- Genel kapsam, bağlam ve soru kimlikleri üçüncü düzey (`###`) başlık; ölçüt bulguları dördüncü düzey (`####`) başlık olarak yazılır. Başlık seviyesi atlanmaz.
 - Düzeltme (revizyon) önerileri için ayrı bir ana bölüm açılmaz.
 - Bütün ölçütler kontrol edilir; rapora yalnızca `❌ Uygun Değil`, `⚠️ Düzeltilmeli` veya `⚪ İncelenemedi` sonucu doğuran bulgular alınır.
 - `✅ Uygun` bulunan ölçütün kodu, adı, sonuç satırı, açıklaması, kanıtı veya başka bir ayrıntısı raporda gösterilmez.
-- Yalnızca sorun bulunan genel kapsam, bağlam veya soru için alt başlık açılır. Sorun bulunmayan soru ve kapsamlar tek tek listelenmez.
-- Bir ana bölümde hiçbir bulgu yoksa yalnızca `Raporlanacak sorun bulunmadı.` yazılır.
+- A ve B bölümlerinde yalnızca sorun bulunan genel kapsam, bağlam veya soru ilişkisi için üçüncü düzey başlık açılır. Sorun bulunmayan A ve B birimleri tek tek listelenmez.
+- C bölümünde kapsanan her soru, soru numarası sırasıyla ayrı bir üçüncü düzey başlık altında zorunlu olarak gösterilir. Bir soruda C kodlu bulgu yoksa o soru başlığının altında yalnızca `Raporlanacak sorun bulunmadı.` yazılır.
+- C bölümünde sorunlar `Soru ve soru cümlesi bulguları` ile `Seçenek bulguları` biçimindeki kalın grup etiketleri altında ayrılır. Yalnızca bulgu bulunan grup etiketi yazılır; bu etiketler ek başlık seviyesi oluşturmaz.
+- A, B veya D ana bölümünde hiçbir bulgu yoksa yalnızca `Raporlanacak sorun bulunmadı.` yazılır.
 - Koşullu bir ölçüt uygulanamıyorsa ayrı sorun bulgusu yazılmaz. Yalnızca D bölümü tek sorulu dosyada uygulanamadığında bu durum bir cümleyle belirtilir.
 - Her sorun kendi ölçüt kodu ve tam soru biçimindeki ölçüt adıyla ayrı bir bulgu olarak yazılır.
 - Her bulguda sorun, gerekçe, kanıt ve uygulanabilir revizyon önerisi bulunur.
 - `zayıf`, `güçlendirilmeli`, `gözden geçirilmeli` gibi tek başına kanıt oluşturmayan ifadeler kullanılmaz.
 - Revizyon yalnızca sorunlu bölümü değiştirir; doğru ve işlevsel bölümler korunur.
 - Doğrudan metin değişikliği öneriliyorsa `ÖNCE` ve `SONRA` gösterilir. Yapısal değişiklik gerekiyorsa sınırlı ve açık bir işlem önerisi verilir.
+- Rapor D bölümüyle biter; D bölümünden sonra kapanış, teklif, soru veya ek değerlendirme yazılmaz.
 
 ## Sorun bulgusu biçimi
 
 ```text
-### [Ölçüt kodu] — [Soru biçimindeki tam ölçüt adı]
+#### [Ölçüt kodu] — [Soru biçimindeki tam ölçüt adı]
 
 Kapsam: Genel / Bağlam B1 / Soru 1 / Set
 Sonuç: ❌ Uygun Değil veya ⚠️ Düzeltilmeli
@@ -433,7 +438,7 @@ Düzeltme (Revizyon) Önerisi: [Yapılacak sınırlı işlem]
 ## İncelenemeyen ölçüt biçimi
 
 ```text
-### [Ölçüt kodu] — [Soru biçimindeki tam ölçüt adı]
+#### [Ölçüt kodu] — [Soru biçimindeki tam ölçüt adı]
 
 Kapsam: Genel / Bağlam B1 / Soru 1 / Set
 Sonuç: ⚪ İncelenemedi
@@ -454,51 +459,59 @@ Gerekli Bilgi: İncelemenin tamamlanması için gereken veri
 **Kapsanan Sorular:** ...
 **Genel Sonuç:** ✅ Uygun / ⚠️ Düzeltilmeli / ❌ Uygun Değil / ⚪ Sınırlı İnceleme
 
-# A — TYMM UYGUNLUĞU
+## A — TYMM UYGUNLUĞU
 
-## Genel TYMM Sorunları
-[Yalnızca sorun varsa açılır. Her sorun, A kodlu ölçüt için ayrı bulgu olarak yazılır.]
+### Genel TYMM Bulguları
+[Yalnızca genel bir A bulgusu varsa açılır.]
+[Her bulgu dördüncü düzey başlıkla ve A koduyla ayrı yazılır.]
 
-### Soru 1
-[Yalnızca Soru 1'de sorun varsa açılır. A kodlu sorunlar ayrı bulgular olarak yazılır.]
+### Soru 1 — TYMM Bulguları
+[Yalnızca Soru 1'de A kodlu bulgu varsa açılır.]
 
-### Soru 2
-[Yalnızca Soru 2'de sorun varsa açılır.]
+### Soru 2 — TYMM Bulguları
+[Yalnızca Soru 2'de A kodlu bulgu varsa açılır.]
 
 [A bölümünde hiçbir bulgu yoksa yalnızca: Raporlanacak sorun bulunmadı.]
 
-# B — BAĞLAM
+## B — BAĞLAM
 
-## Bağlam B1
-[Yalnızca Bağlam B1 ile ilgili sorun varsa açılır.]
+### Bağlam B1 — Genel Bulgular
+[Yalnızca Bağlam B1'de genel bir B bulgusu varsa açılır.]
+[Her bulgu dördüncü düzey başlıkla ve B koduyla ayrı yazılır.]
 
-### Genel Bağlam Sorunları
-[Yalnızca genel bağlam sorunu varsa açılır. B kodlu sorunlar ayrı bulgular olarak yazılır.]
+### Bağlam B1 / Soru 1 — Soru-Bağlam Bulguları
+[Yalnızca Soru 1 ile Bağlam B1 arasındaki ilişkide B kodlu bulgu varsa açılır.]
 
-#### Soru 1
-[Yalnızca Soru 1 ile bağlam arasındaki ilişkide sorun varsa açılır. B kodlu sorunlar ayrı bulgular olarak yazılır.]
+### Bağlam B1 / Soru 2 — Soru-Bağlam Bulguları
+[Yalnızca Soru 2 ile Bağlam B1 arasındaki ilişkide B kodlu bulgu varsa açılır.]
 
 [B bölümünde hiçbir bulgu yoksa yalnızca: Raporlanacak sorun bulunmadı.]
 
-# C — SORU BAZLI DEĞERLENDİRME
+## C — SORU BAZLI DEĞERLENDİRME
 
-## Soru 1
-[Yalnızca Soru 1'de C kodlu bir sorun varsa açılır.]
+### Soru 1
+[Bu başlık, Soru 1'de bulgu olsun veya olmasın mutlaka açılır.]
 
-### Soru ve Soru Cümlesi Sorunları
-[Yalnızca bu grupta sorun varsa açılır. Sorunlar ayrı bulgular olarak yazılır.]
+**Soru ve soru cümlesi bulguları**
+[Yalnızca C.1.x, C.2.x veya C.3.x bulgusu varsa yazılır.]
+[Her bulgu dördüncü düzey başlıkla ve C koduyla ayrı yazılır.]
 
-### Seçenek Sorunları
-[Yalnızca seçeneklerde sorun varsa açılır. C.4.x sorunları ayrı bulgular olarak yazılır.]
+**Seçenek bulguları**
+[Yalnızca C.4.x bulgusu varsa yazılır.]
+[Her bulgu dördüncü düzey başlıkla ve C koduyla ayrı yazılır.]
 
-## Soru 2
-[Yalnızca Soru 2'de C kodlu bir sorun varsa açılır.]
+[Soru 1'de hiçbir C bulgusu yoksa grup etiketleri yerine yalnızca: Raporlanacak sorun bulunmadı.]
 
-[C bölümünde hiçbir bulgu yoksa yalnızca: Raporlanacak sorun bulunmadı.]
+### Soru 2
+[Soru 2 aynı kurallarla ayrı değerlendirilir.]
+[Dosyadaki bütün sorular numara sırasıyla bu biçimde devam eder.]
 
-# D — SET DÜZEYİ DEĞERLENDİRME
+## D — SET DÜZEYİ DEĞERLENDİRME
 
-[Set sorunları D kodlu ölçütler altında ayrı bulgular olarak yazılır.]
+### Set Bulguları
+[Yalnızca set düzeyinde bulgu varsa açılır.]
+[Her bulgu dördüncü düzey başlıkla ve D koduyla ayrı yazılır.]
+
 [Hiçbir set sorunu yoksa yalnızca: Raporlanacak sorun bulunmadı.]
 [Tek soru varsa: Tek soru bulunduğu için set düzeyi değerlendirme uygulanamaz.]
 ```
@@ -507,7 +520,10 @@ Gerekli Bilgi: İncelemenin tamamlanması için gereken veri
 
 Rapor tamamlanmadan önce aşağıdakiler doğrulanır:
 
-- A, B, C ve D başlıklarının tamamı var mı?
+- İlk satır tam olarak `# TYMM SORU KONTROL RAPORU` mu?
+- A, B, C ve D başlıklarının tamamı ikinci düzeyde, doğru sırada ve tam adlarıyla var mı?
+- C bölümünde kapsanan her soru numara sırasıyla ayrı bir üçüncü düzey başlık altında gösterildi mi?
+- Ölçüt bulguları dördüncü düzey başlıkla yazıldı ve başlık seviyeleri atlanmadı mı?
 - `✅ Uygun` bulunan herhangi bir ölçüt yanlışlıkla rapora alındı mı?
 - Her sorun doğru bölümün altında mı?
 - Her soru için soru bazlı ölçütler ayrı ayrı kontrol edildi mi?
@@ -517,3 +533,4 @@ Rapor tamamlanmadan önce aşağıdakiler doğrulanır:
 - Her hata somut gerekçe ve kanıt içeriyor mu?
 - Her revizyon önerisi yalnızca sorunlu bölümü mü değiştiriyor?
 - Düzeltme önerileri için ayrı bir beşinci ana bölüm açılmadı mı?
+- Rapor D bölümüyle bitiyor mu?
