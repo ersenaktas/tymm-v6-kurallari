@@ -39,7 +39,8 @@ Kaynaklar çelişirse üst sıradaki kaynak esas alınır. Belgede bulunmayan bi
 
 ## DEĞERLENDİRME BİRİMLERİ
 
-- **Genel ölçüt:** Aynı öğrenme çıktısına, sınıf düzeyine, programa veya ortak bağlama bağlı sorular için bir kez değerlendirilir. Sorular farklı öğrenme çıktılarına veya farklı bağlamlara bağlıysa ilgili soru grupları ayrı ele alınır.
+- **Genel TYMM ölçütü:** A.1.1, A.1.2, A.1.7 ve A.1.15; aynı öğrenme çıktısına, sınıf düzeyine ve programa bağlı soru grubu için bir kez değerlendirilir. Sorular farklı öğrenme çıktıları, sınıf düzeyleri veya program kapsamları içeriyorsa her grup ayrı bir genel TYMM değerlendirme birimi olarak ele alınır.
+- **Genel bağlam ölçütü:** Aynı bağımsız bağlama bağlı sorular için bir kez değerlendirilir. Birden fazla bağımsız bağlam varsa her bağlam ayrı ele alınır.
 - **Soru bazlı ölçüt:** Her soru için yeniden ve bağımsız olarak değerlendirilir.
 - **Set düzeyi ölçüt:** İki veya daha fazla soru bulunduğunda bütün set için bir kez değerlendirilir.
 - **Koşullu ölçüt:** İlgili unsur veya veri varsa uygulanır. Unsur yoksa kusur üretilmez.
@@ -402,10 +403,11 @@ Diğer ölçütlerdeki uygunsuzluk ölçme geçerliliğini doğrudan ortadan kal
 - Düzeltme (revizyon) önerileri için ayrı bir ana bölüm açılmaz.
 - Bütün ölçütler kontrol edilir; rapora yalnızca `❌ Uygun Değil`, `⚠️ Düzeltilmeli` veya `⚪ İncelenemedi` sonucu doğuran bulgular alınır.
 - `✅ Uygun` bulunan ölçütün kodu, adı, sonuç satırı, açıklaması, kanıtı veya başka bir ayrıntısı raporda gösterilmez.
-- A ve B bölümlerinde yalnızca sorun bulunan genel kapsam, bağlam veya soru ilişkisi için üçüncü düzey başlık açılır. Sorun bulunmayan A ve B birimleri tek tek listelenmez.
+- A bölümünde her genel TYMM değerlendirme birimi için `### Genel TYMM Değerlendirmesi` başlığı zorunlu olarak açılır. Bu birimde A.1.1, A.1.2, A.1.7 ve A.1.15 ölçütleri birlikte kontrol edilir; bulgu yoksa başlığın altında yalnızca `Raporlanacak sorun bulunmadı.` yazılır. Birden fazla genel TYMM grubu varsa her grubun kapsadığı sorular belirtilerek ayrı üçüncü düzey başlık açılır.
+- A bölümündeki soru bazlı TYMM birimleri ile B bölümündeki bağlam ve soru-bağlam birimleri yalnızca raporlanacak bulgu varsa açılır; bulgu bulunmayan bu birimler tek tek listelenmez.
 - C bölümünde kapsanan her soru, soru numarası sırasıyla ayrı bir üçüncü düzey başlık altında zorunlu olarak gösterilir. Bir soruda C kodlu bulgu yoksa o soru başlığının altında yalnızca `Raporlanacak sorun bulunmadı.` yazılır.
 - C bölümünde sorunlar `Soru ve soru cümlesi bulguları` ile `Seçenek bulguları` biçimindeki kalın grup etiketleri altında ayrılır. Yalnızca bulgu bulunan grup etiketi yazılır; bu etiketler ek başlık seviyesi oluşturmaz.
-- A, B veya D ana bölümünde hiçbir bulgu yoksa yalnızca `Raporlanacak sorun bulunmadı.` yazılır.
+- B veya D ana bölümünde hiçbir bulgu yoksa yalnızca `Raporlanacak sorun bulunmadı.` yazılır. A bölümünde ise genel TYMM değerlendirme başlığı her durumda korunur.
 - Koşullu bir ölçüt uygulanamıyorsa ayrı sorun bulgusu yazılmaz. Yalnızca D bölümü tek sorulu dosyada uygulanamadığında bu durum bir cümleyle belirtilir.
 - Her sorun kendi ölçüt kodu ve tam soru biçimindeki ölçüt adıyla ayrı bir bulgu olarak yazılır.
 - Her bulguda sorun, gerekçe, kanıt ve uygulanabilir revizyon önerisi bulunur.
@@ -461,17 +463,18 @@ Gerekli Bilgi: İncelemenin tamamlanması için gereken veri
 
 ## A — TYMM UYGUNLUĞU
 
-### Genel TYMM Bulguları
-[Yalnızca genel bir A bulgusu varsa açılır.]
-[Her bulgu dördüncü düzey başlıkla ve A koduyla ayrı yazılır.]
+### Genel TYMM Değerlendirmesi
+[Bu başlık her durumda açılır. A.1.1, A.1.2, A.1.7 ve A.1.15 aynı genel kapsam için bir kez değerlendirilir.]
+[Genel bir A bulgusu varsa her bulgu dördüncü düzey başlıkla ve A koduyla ayrı yazılır.]
+[Genel bulgu yoksa yalnızca: Raporlanacak sorun bulunmadı.]
+
+[Birden fazla genel TYMM grubu varsa her biri `### Genel TYMM Değerlendirmesi — Grup N (Kapsadığı Sorular: ...)` biçiminde ayrı açılır.]
 
 ### Soru 1 — TYMM Bulguları
 [Yalnızca Soru 1'de A kodlu bulgu varsa açılır.]
 
 ### Soru 2 — TYMM Bulguları
 [Yalnızca Soru 2'de A kodlu bulgu varsa açılır.]
-
-[A bölümünde hiçbir bulgu yoksa yalnızca: Raporlanacak sorun bulunmadı.]
 
 ## B — BAĞLAM
 
@@ -522,6 +525,7 @@ Rapor tamamlanmadan önce aşağıdakiler doğrulanır:
 
 - İlk satır tam olarak `# TYMM SORU KONTROL RAPORU` mu?
 - A, B, C ve D başlıklarının tamamı ikinci düzeyde, doğru sırada ve tam adlarıyla var mı?
+- A bölümünde her genel TYMM grubu için ayrı `Genel TYMM Değerlendirmesi` başlığı açıldı ve A.1.1, A.1.2, A.1.7 ile A.1.15 kontrol edildi mi?
 - C bölümünde kapsanan her soru numara sırasıyla ayrı bir üçüncü düzey başlık altında gösterildi mi?
 - Ölçüt bulguları dördüncü düzey başlıkla yazıldı ve başlık seviyeleri atlanmadı mı?
 - `✅ Uygun` bulunan herhangi bir ölçüt yanlışlıkla rapora alındı mı?
